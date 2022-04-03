@@ -1,0 +1,60 @@
+
+body{
+    background-image:linear-gradient(to right, #000000 , #303030);
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.h{
+    color: #D8C690;
+    
+}
+.container a{
+    text-decoration: none;
+    color: #D8C690;
+}
+.menu {
+    width: 50px; /* Set a width if you like */
+    background-color: #313131;
+}
+
+.menu a {
+    background-color: #313131; /* Grey background color */
+    color: #D8C690; /* white text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    line-height: 2;
+    font-size: x-large;
+}
+
+.menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+.header{
+    padding: 20px;
+    
+}
+.logo{
+    width: 100px;
+    
+}
+.container{
+    background-color: #303030;
+    width: 570%;
+    height: 50%;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.links{
+    position: relative;
+
+}
+/*
+.menu a.active {
+    background-color: #313131; 
+    color: #D8C690;
+}
+*/
